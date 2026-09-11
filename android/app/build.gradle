@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.flowfilipino.ai'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.flowfilipino.ai'
+        minSdk 24
+        targetSdk 35
+        versionCode 64
+        versionName '6.4.0'
+    }
+}
